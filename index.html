@@ -3,43 +3,121 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"><link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Assistant:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/42916dbb94.js" crossorigin="anonymous"></script>
     <title>Curriculo</title>
 </head>
 <body>
-    <div class="folha">
-        <div class="header">
-            <div class="inicio">
-                <img src="./src/perfil azul.png" alt="" class="perfil-img">
-                <div class="titulos">
-                    <h1>
-                        Alexandre Borges de Albuquerque
-                    </h1>
-                    <h3>
-                        Desenvolvedor Front-End
-                    </h3>
+    <div class="folha"> 
+        <div class="container--vertical">
+            <img src="./src/perfil azul.png" alt="" class="perfil-img">
+            <div class="container--contatos">
+                <h3>
+                    CONTATO
+                </h3>
+                <div class="contato">
+                    <i class="fa-solid fa-location-dot icone-img"></i>
+                    <p>Rio de Janeiro-RJ, Brasil</p>
                 </div>
-                <div class="contatos">
-                    <div class="contato">
-                        <img src="" alt="">
-                        <p>(21) 99669-5908</p>
+                <div class="contato">
+                    <i class="fa-regular fa-envelope-open icone-img"></i>
+                    <p>axdborges@outlook.com</p>
+                </div>
+                <div class="contato">
+                    <i class="fa-brands fa-whatsapp icone-img"></i>
+                    <p>(21) 99669-5908</p>
+                </div>
+                    <div class="links">
+                        <div class="icone--link">
+                            <i class="fa-brands fa-linkedin fa-xl icone-img-link"></i>
+                            <a href="https://www.linkedin.com/in/alexandre-borges-albuquerque/" target="_blank">Linkedin</a>
+                        </div>
+                        <div class="icone--link">
+                            <i class="fa-brands fa-github icone-img-link fa-xl icone-img-link"></i>
+                            <a href="https://github.com/axdborges" target="_blank">Git Hub</a>
+                        </div>
+                        <div class="icone--link">
+                            <i class="fa-regular fa-file-word fa-xl icone-img-link"></i>
+                            <a href="https://axdborges.com" target="_blank">Portfólio</a>
+                        </div>
                     </div>
-                    <div class="contato">
-                        <img src="" alt="">
-                        <p>axdborges@outlook.com</p>
-                    </div>
-                    <div class="contato">
-                        <img src="" alt="">
-                        <a href="https://www.linkedin.com/in/alexandre-borges-albuquerque/" target="_blank">Linkedin</a>
-                    </div>
-                    <div class="contato">
-                        <img src="" alt="">
-                        <a href="https://github.com/axdborges" target="_blank">Git Hub</a>
-                    </div>
+            </div>
+            <div class="container--habilidades">
+                <h3>HABILIDADES</h3>
+                <div class="habilidade">
+                    <i class="fa-brands fa-node-js fa-lg"></i>
+                    <p>Node.js</p>
+                </div>
+                <div class="habilidade">
+                    <i class="fa-brands fa-react fa-lg"></i>
+                    <p>React.js</p>
+                </div>
+                <div class="habilidade">
+                    <i class="fa-brands fa-square-js"></i>
+                    <p>Typescript & JS</p>
+                </div>
+                <div class="habilidade">
+                    <i class="fa-brands fa-python fa-lg"></i>
+                    <p>Django</p>
+                </div>
+                <div class="habilidade">
+                    <i class="fa-solid fa-database"></i>
+                    <p>PostgreSQL</p>
+                </div>
+                <div class="habilidade">
+                    <i class="fa-solid fa-code"></i>
+                    <p>HTML & CSS</p>
+                </div>
+                <div class="habilidade">
+                    <i class="fa-brands fa-docker"></i>
+                    <p>Docker</p>
+                </div>
+                <div class="habilidade">
+                    <i class="fa-brands fa-git-alt fa-lg"></i>
+                    <p>Git</p>
                 </div>
             </div>
+            <ul class="container--projetos">
+                <h3>PROJETOS</h3>
+                <div class="projeto">
+                    <li>Assistente virtual que organiza informações e rotinas do usuário</li>
+                    <div class="projeto--link">
+                        <a href="https://github.com/axdborges/Virtual-Assistant-Monday" target="_blank">Monday VA</a>
+                        <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                    </div>
+                </div>
+                <div class="projeto">
+                    <li>Fintech que calcula orçamentos de serviços baseados em valor por hora</li>
+                    <div class="projeto--link">
+                        <a href="https://github.com/axdborges/iBudget" target="_blank">IBudget</a>
+                        <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                    </div>
+                </div>
+                <div class="projeto">
+                    <li>Serviço de streaming para usuários avaliarem e comentarem sobre filmes e séries</li>
+                    <div class="projeto--link">
+                        <a href="https://github.com/axdborges/Movie_Play" target="_blank">Movie Play</a>
+                        <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                    </div>
+                </div>
+            </ul>
+
+        </div>
+        <div class="direita">
+            <h1>
+                Alexandre Borges de Albuquerque
+            </h1>
+            <h3>
+                Desenvolvedor Front-End
+            </h3>
         </div>
     </div>
+    <script src="https://kit.fontawesome.com/42916dbb94.js" crossorigin="anonymous"></script>
 </body>
 </html>
