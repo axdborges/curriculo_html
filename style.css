@@ -6,12 +6,14 @@ body {
     display: flex;
     justify-content: center;
     background-color: gray;
+
+    /* max-height: 100vh; */
 }
 
 .folha {
    
     width: 60%;
-    min-height: 130vh;
+    /* min-height: 130vh; */
 
     display: flex;
     justify-content: space-around;

@@ -3,23 +3,23 @@
     COLOR: white;
     background-color: #393d80;
     max-width: 30%; 
-    padding: 30px;
+    padding: 1.875rem;
 
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: flex-start;
-    gap: 30px;
+    gap: 1.875rem;
 
 }
 
 .perfil-img {
-    width: 200px;
-    height: 200px;
+    width: 12.5rem;
+    height: 12.5rem;
     border-radius: 50%;
     align-self: center;
 
-    border: 8px solid rgb(216, 208, 208);
+    border: 0.5rem solid rgb(216, 208, 208);
 }
 
 .container--contatos {
@@ -32,67 +32,89 @@
 .contato {
     display: flex;
     align-items: center;
-    gap: 18px;
+    gap: 0.938rem;
 }
 
 .icone-img {
-    width: 30px;
+    width: 1.875rem;
     color: white;
-    margin-right: -20px;
+    margin-right: -1.25rem;
 }
 
 .links {
-    margin-top: 14px;
+    margin-top: 0.875rem;
     display: flex;
     justify-content: space-between;
-    margin-right: -64px;
+    margin-right: -4rem;
 }
 
 .icone--link {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 6px;
-    font-size: 15px;
+    gap: 0.375rem;
+    font-size: 0.938rem;
 }
 
 .icone-img-link {
-   margin-bottom: 10px;
+   margin-bottom: 0.625rem;
 }
 
-
-
-.container--habilidades {
+.section--habilidades {
     width: 50%;
-
+    
     display: flex;
     flex-direction: column;
-    gap: 20px;
-    
+    gap: 1.875rem;
+}
+
+.container--habilidades {
+    max-height: 8.125rem;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 0.625rem;
 }
 
 .habilidade {
     display: flex;
-    gap: 13px;
+    gap: 0.813rem;
     align-items: center;
+}
+
+.section--idiomas {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.idiomas {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.idioma {
+    margin-left: 13px;
 }
 
 .container--projetos {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    gap: 15px;
+    gap: 0.938rem;
 }
 
 .projeto {
     display: flex;
     flex-direction: column;
-    gap: 7px;
+    gap: 0.438rem;
+    margin-left: 13px;
 }
 
 .projeto--link {
     display: flex;
-    gap: 15px;
+    gap: 0.938rem;
 }
 
 

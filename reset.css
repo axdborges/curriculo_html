@@ -43,7 +43,7 @@ h1 {
     font-family: 'League spartan';
     font-weight: 600;
 }
-h3 {
+h3, h2 {
     font-family: 'Source Sans Pro';
     font-weight: 600;
     letter-spacing: 3px;
