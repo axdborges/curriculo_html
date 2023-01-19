@@ -1,4 +1,72 @@
 .direita {
-    background-color: rgba(255, 255, 255, 0.692);
+    background-color: white;
+
     width: 70%;
+    padding: 50px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 10px;
+}
+
+.title--home {
+    font-size: 40px;
+    color:  #393d80;
+    margin-bottom: 14px;
+}
+
+.linha {
+    color: black;
+}
+
+h2 {
+    margin-top: 14px;
+    font-size: 22px;
+}
+
+.title--sub {
+    font-size: 19px;
+    color: #3194ca;
+}
+
+.section--perfil, 
+.section--formacao, 
+.section--experiencias,
+.experiencias {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+.paragrafo--cinza, h4, .instituicao {
+    color: #444440;
+}
+
+.formacoes {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+h4 {
+    font-weight: 600;
+    font-size: 17px;
+    margin-bottom: 3px;
+}
+
+.instituicao {
+    font-weight: 200;
+}
+
+.competencias {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.competencia {
+    margin-left: 16px;
 }
